@@ -97,9 +97,7 @@
    - Karena ini versi public, hasilnya tidak dapat disimpan secara offline. Untuk menyimpan secara offline, instal versi berbayar seperti Tableau Desktop.
 
 ### Contoh Dashboard
-![Contoh Dashboard](https://www.dropbox.com/scl/fi/fu1p490mk0fh8fyqgo3k6/JUMLAH-PULAU-DI-INDONESIA.png?rlkey=79xnbkigqbpoi736aj2c4do9o&dl=0)
+![Contoh Dashboard](https://github.com/dikiriskiyanto/Install/blob/main/JUMLAH%20PULAU%20DI%20INDONESIA.png)
 
 ### Link Hasil Visualisasi
 [Tableau Public - Jumlah Pulau di Indonesia Tahun 2021](https://public.tableau.com/app/profile/diki.riskiyanto/viz/JUMLAHPULAUDIINDONESIATAHUN2021/JUMLAHPULAUDIINDONESIA?publish=yes)
-
-Jika ada pertanyaan atau perlu bantuan lebih lanjut, jangan ragu untuk menghubungi saya.
