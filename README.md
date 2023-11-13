@@ -100,7 +100,6 @@
 ![Contoh Dashboard](URL_GAMBAR_CONTOH_DASHBOARD)
 
 ### Link Hasil Visualisasi
-[hasilnya](https://public.tableau.com/app/profile/diki.riskiyanto/viz/JUMLAHPULAUDIINDONESIATAHUN2021/JUMLAHPULAUDIINDONESIA?publish=yes)
 [Tableau Public - Jumlah Pulau di Indonesia Tahun 2021](https://public.tableau.com/app/profile/diki.riskiyanto/viz/JUMLAHPULAUDIINDONESIATAHUN2021/JUMLAHPULAUDIINDONESIA?publish=yes)
 
 Jika ada pertanyaan atau perlu bantuan lebih lanjut, jangan ragu untuk menghubungi saya.
