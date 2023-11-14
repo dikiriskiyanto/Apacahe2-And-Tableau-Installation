@@ -24,6 +24,8 @@
      ```
   sudo systemctl status apache2
      ```
+  ![cek status apache2](https://github.com/dikiriskiyanto/Install/assets/150429308/12080620-aab3-4507-a769-e1960563d6c9)
+
 - Untuk mengecek bahwa Apache dapat berjalan dengan baik dapat menggunkan perintah
 - - **Periksa Alamat IP**:
     ```bash
