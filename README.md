@@ -9,9 +9,9 @@
     ```
 
 - Install Apache2
-   ```
-  sudo apt install apache2
-     ```
+-  ```bash
+       sudo apt install apache2
+    ```
 - Izinkan Apache Melalui Firewall:
     ```bash
       sudo ufw allow 'Apache'
@@ -21,9 +21,9 @@
       sudo ufw enable
     ```
 - Periksa Status Apache2
-     ```
-  sudo systemctl status apache2
-     ```
+-  ```bash
+      sudo systemctl status apache2
+    ```
   ![cek status apache2](https://github.com/dikiriskiyanto/Install/assets/150429308/12080620-aab3-4507-a769-e1960563d6c9)
 
 - Untuk mengecek bahwa Apache dapat berjalan dengan baik dapat menggunkan perintah
@@ -31,24 +31,36 @@
     ```bash
       hostname -I
     ```
+    ![hostneme-I](https://github.com/dikiriskiyanto/Install/assets/150429308/d41a2f5c-ddb3-44fd-90d9-3174f6f84822)
+
 - Buka Broswer : Buka broswer yang berada di sistem operasi utama atau yang terhubung kejaringan yang sama 
--  Masukkan Alamat IP :
-  Jika berhasil akan muncul halaman default Apache2
+-  Masukkan Alamat IP :Jika berhasil akan muncul halaman default Apache2
+
+      ![tampilandefaultapache2](https://github.com/dikiriskiyanto/Install/assets/150429308/1bfa9f20-b9a2-426f-a25f-d95cd02ab6a0)
+
 ## 2. Membuat Halaman Web Sendiri
 
 - Buat Direktori untuk Domain Anda
-   ```
-   sudo mkdir /var/www/html/nama_domain
+   ```bash
+       sudo mkdir /var/www/html/nama_domain
+    ```
+
+  ![pemebuatan derektori baru](https://github.com/dikiriskiyanto/Install/assets/150429308/0c4972fe-b9fe-4404-895c-3520d2480ef2)
+
 - Buat dan Edit Laman Index HTML
-   ```
-   sudo nano /var/www/html/nama_domain/index.html
-   
+   ```bash
+        sudo nano /var/www/html/nama_domain/index.html
+    ```
+   ![pembuatan file direktori](https://github.com/dikiriskiyanto/Install/assets/150429308/47b5ced0-bb5d-47e9-9e41-f415f67b7acf)
+
 - Tambahkan kode HTML untuk tampilan halaman web sendiri
 - Simpan dan keluar dari editor
 
 - Restart Apache2
-   ```
-   sudo systemctl restart apache2
+   ```bash
+      sudo systemctl restart apache2
+    ```
+   ![restart apache2](https://github.com/dikiriskiyanto/Install/assets/150429308/a0746d16-09e4-48d9-ae8f-868c291be2e7)
    
 ## 3. Meremote Ubuntu Server
 
@@ -57,16 +69,18 @@
   - Login dengan akun Ubuntu Server.
 
 - Menggunakan Command Prompt (di Windows):
-  - Ketikan di CMD 
-     ```
-     sudo ssh user@ip_ubuntu_server
-        
+  - Ketikan di CMD
+     ```bash
+      sudo ssh user@ip_ubuntu_server
+    ```
+     
   - Masukkan password akun Ubuntu Server
 
 - Menggunakan Terminal (di Ubuntu):
   - Ketikan di terminal
-     ```
-     sudo ssh user@ip_ubuntu_server
+      ```bash
+      sudo ssh user@ip_ubuntu_server
+    ```
      
   - Masukkan password akun Ubuntu Server
 # Proses Instalisasi Tabluae
