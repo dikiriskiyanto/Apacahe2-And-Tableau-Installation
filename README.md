@@ -61,11 +61,13 @@
       sudo systemctl restart apache2
     ```
    ![restart apache2](https://github.com/dikiriskiyanto/Install/assets/150429308/a0746d16-09e4-48d9-ae8f-868c291be2e7)
-   
+  ![GAMABAR WEBSITE](https://github.com/dikiriskiyanto/Install/assets/150429308/e2dc4fc4-a46d-48f7-8c9f-6b800da1c58e)
+
 ## 3. Meremote Ubuntu Server
 
 - Menggunakan PuTTY (di Windows):
   - Buka PuTTY, masukkan IP Ubuntu Server, atur connect type ke SSH, klik "Open".
+![PUTTY](https://github.com/dikiriskiyanto/Install/assets/150429308/ac21460f-adeb-4d91-acad-e2e322266e93)
   - Login dengan akun Ubuntu Server.
 
 - Menggunakan Command Prompt (di Windows):
@@ -73,7 +75,7 @@
      ```bash
       sudo ssh user@ip_ubuntu_server
     ```
-     
+      ![WINDOWS](https://github.com/dikiriskiyanto/Install/assets/150429308/24f03218-afc1-4d44-9ca8-6418b887d633)
   - Masukkan password akun Ubuntu Server
 
 - Menggunakan Terminal (di Ubuntu):
@@ -81,7 +83,7 @@
       ```bash
       sudo ssh user@ip_ubuntu_server
     ```
-     
+     ![UBUNTU](https://github.com/dikiriskiyanto/Install/assets/150429308/34546c77-0598-4a1a-8f0e-c66dc9b1b1ee)
   - Masukkan password akun Ubuntu Server
 # Proses Instalisasi Tabluae
 ### Panduan Instalasi dan Visualisasi Data Menggunakan Tableau Public
@@ -97,6 +99,7 @@
    - Hubungkan data dengan memilih jenis file, misalnya Microsoft Excel.
    - Pilih file yang akan diunggah dan buka.
    - Jika berhasil, tampilan data akan muncul.
+   - Contoh data JUMLAH PULAU DI INDONESIA
    - Pilih "Sheet 1" untuk membuat visualisasi pertama. Tarik provinsi ke kolom, lalu pilih tampilan peta.
    - Masukkan data yang ingin ditampilkan di peta dengan menarik elemen data ke dalam gambar.
    - Buat sheet baru untuk membuat tabel jumlah pulau.
@@ -117,3 +120,5 @@
 
 ### Link Hasil Visualisasi
 [Tableau Public - Jumlah Pulau di Indonesia Tahun 2021](https://public.tableau.com/app/profile/diki.riskiyanto/viz/JUMLAHPULAUDIINDONESIATAHUN2021/JUMLAHPULAUDIINDONESIA?publish=yes)
+
+#UNTUK DETAIL PENGINSTALAN SILAKAN LIHAT LAPORAN 
