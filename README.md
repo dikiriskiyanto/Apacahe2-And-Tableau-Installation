@@ -54,6 +54,21 @@
    ![pembuatan file direktori](https://user-images.githubusercontent.com/150429308/282998901-5732a827-57ba-48ce-8028-cd331f8e542a.png)
 
 - Tambahkan kode HTML untuk tampilan halaman web sendiri
+  Contoh kodingan
+    ```bash
+       <html>
+    <head>
+    <title>website YNTM</title>
+    </head>
+    <body>
+    <h1>Selamat Datang di Website Diki Riskiyanto</h1>
+    <from>
+    <label> Nama: Diki Riskiyanto</label><br><br>
+    <label> NIM : 0901128227111</label><br><br>
+    <label> Kelas: SK5C<br><br>
+    </body>
+    </html>
+    ```
 - Simpan dan keluar dari editor
 
 - Restart Apache2
@@ -61,12 +76,15 @@
       sudo systemctl restart apache2
     ```
    ![restart apache2](https://user-images.githubusercontent.com/150429308/282998898-743ee45b-ff89-4aa9-a5c5-2a32ba775e66.png)
-  ![GAMABAR WEBSITE](https://user-images.githubusercontent.com/150429308/282998895-23f83576-e28e-4073-bffe-b1c1d7d62d4e.png)
+- Masuk ke broswer masukan ip/nama_domain
+  
+![GAMABAR WEBSITE](https://user-images.githubusercontent.com/150429308/282998895-23f83576-e28e-4073-bffe-b1c1d7d62d4e.png)
 
 ## 3. Meremote Ubuntu Server
 
 - Menggunakan PuTTY (di Windows):
   - Buka PuTTY, masukkan IP Ubuntu Server, atur connect type ke SSH, klik "Open".
+    
 ![PUTTY](https://user-images.githubusercontent.com/150429308/282998894-c3559f54-6fa2-4e48-9f22-1fa7a97d3931.png)
   - Login dengan akun Ubuntu Server.
 
