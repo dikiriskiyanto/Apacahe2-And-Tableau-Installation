@@ -1,6 +1,5 @@
 # Apacahe2 And Tableau Installation
 **Berikut adalah langkah-langkah menginstall Apache2 dan Tableau**!
-# Daftar Isi
 # Proses instalisai Apache2
 ## 1. Instalasi Apache2 di Ubuntu Server
 - Perbarui Paket Database Lokal
@@ -24,7 +23,7 @@
 -  ```bash
       sudo systemctl status apache2
     ```
-  ![cek status apache2](https://user-images.githubusercontent.com/150429308/282998909-8f1f021b-d09a-4ef8-9c8b-660908c43e92.png)
+      [cek status apache2](https://user-images.githubusercontent.com/150429308/282998909-8f1f021b-d09a-4ef8-9c8b-660908c43e92.png)
 
 - Untuk mengecek bahwa Apache dapat berjalan dengan baik dapat menggunkan perintah
 - - **Periksa Alamat IP**:
@@ -101,7 +100,7 @@
       ```bash
       sudo ssh user@ip_ubuntu_server
     ```
-     ![UBUNTU](https://user-images.githubusercontent.com/150429308/282998886-9135373c-31bc-4561-b1da-464291055c00.png)
+  ![UBUNTU](https://user-images.githubusercontent.com/150429308/282998886-9135373c-31bc-4561-b1da-464291055c00.png)
   - Masukkan password akun Ubuntu Server
 # Proses Instalisasi Tabluae
 ### Panduan Instalasi dan Visualisasi Data Menggunakan Tableau Public
@@ -111,20 +110,32 @@
    - Klik "Create My Account" dan verifikasi akun melalui email yang dikirimkan.
    - Setelah akun aktif, login ke Tableau Public.
    - Pada halaman utama setelah login, klik "Create" dan pilih "Download Tableau Desktop Public."
+     
+![create](https://github.com/dikiriskiyanto/Apacahe2-And-Tableau-Installation/assets/150429308/d172a283-c063-4314-8cde-5fe613c9c730)
+
    - Pilih sistem operasi yang sesuai dan lakukan instalasi.
 
 2. **Membuat dan Menvisualisasikan Data di Tableau**
    - Hubungkan data dengan memilih jenis file, misalnya Microsoft Excel.
    - Pilih file yang akan diunggah dan buka.
    - Jika berhasil, tampilan data akan muncul.
+   
+![Gambar tampilan data](https://github.com/dikiriskiyanto/Apacahe2-And-Tableau-Installation/assets/150429308/3b89c4b4-191b-4471-8e11-960f6ea67d80)
+
    - Contoh data JUMLAH PULAU DI INDONESIA
    - Pilih "Sheet 1" untuk membuat visualisasi pertama. Tarik provinsi ke kolom, lalu pilih tampilan peta.
+     
+![sheet 1](https://github.com/dikiriskiyanto/Apacahe2-And-Tableau-Installation/assets/150429308/954b2b02-9f82-40e6-9de4-54d6da071919)
+
    - Masukkan data yang ingin ditampilkan di peta dengan menarik elemen data ke dalam gambar.
    - Buat sheet baru untuk membuat tabel jumlah pulau.
    - Tarik data provinsi ke kolom dan jumlah pulau ke baris.
    - Buat sheet baru lagi untuk menampilkan persentase wilayah.
    - Tarik data provinsi ke kolom dan persentase ke baris, pilih tampilan peta simbol.
    - Sesuaikan warna menggunakan opsi di menu warna.
+     
+![sheet 3](https://github.com/dikiriskiyanto/Apacahe2-And-Tableau-Installation/assets/150429308/cda5f4d5-e5de-4143-99d4-37bc7a511b74)
+
    - Buat dashboard dengan menambahkan sheet 1 ke dalamnya. Atur tata letak sesuai kebutuhan.
 
 3. **Menyimpan dan Membagikan Hasil**
