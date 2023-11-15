@@ -24,19 +24,19 @@
 -  ```bash
       sudo systemctl status apache2
     ```
-  ![cek status apache2](https://github.com/dikiriskiyanto/Install/assets/150429308/12080620-aab3-4507-a769-e1960563d6c9)
+  ![cek status apache2](https://user-images.githubusercontent.com/150429308/282998909-8f1f021b-d09a-4ef8-9c8b-660908c43e92.png)
 
 - Untuk mengecek bahwa Apache dapat berjalan dengan baik dapat menggunkan perintah
 - - **Periksa Alamat IP**:
     ```bash
       hostname -I
     ```
-    ![hostneme-I](https://github.com/dikiriskiyanto/Install/assets/150429308/d41a2f5c-ddb3-44fd-90d9-3174f6f84822)
+    ![hostneme-I](https://user-images.githubusercontent.com/150429308/282998908-9947be4d-648f-4a07-9452-f62d03178295.png)
 
 - Buka Broswer : Buka broswer yang berada di sistem operasi utama atau yang terhubung kejaringan yang sama 
 -  Masukkan Alamat IP :Jika berhasil akan muncul halaman default Apache2
 
-      ![tampilandefaultapache2](https://github.com/dikiriskiyanto/Install/assets/150429308/1bfa9f20-b9a2-426f-a25f-d95cd02ab6a0)
+      ![tampilandefaultapache2](https://user-images.githubusercontent.com/150429308/282998906-39fcb4cc-fe1f-493a-9f7c-7ad2e0b762f8.png)
 
 ## 2. Membuat Halaman Web Sendiri
 
@@ -45,13 +45,13 @@
        sudo mkdir /var/www/html/nama_domain
     ```
 
-  ![pemebuatan derektori baru](https://github.com/dikiriskiyanto/Install/assets/150429308/0c4972fe-b9fe-4404-895c-3520d2480ef2)
+  ![pemebuatan derektori baru](https://user-images.githubusercontent.com/150429308/282998903-12b66258-2eb1-4221-9236-e51d2a88c0e6.png)
 
 - Buat dan Edit Laman Index HTML
    ```bash
         sudo nano /var/www/html/nama_domain/index.html
     ```
-   ![pembuatan file direktori](https://github.com/dikiriskiyanto/Install/assets/150429308/47b5ced0-bb5d-47e9-9e41-f415f67b7acf)
+   ![pembuatan file direktori](https://user-images.githubusercontent.com/150429308/282998901-5732a827-57ba-48ce-8028-cd331f8e542a.png)
 
 - Tambahkan kode HTML untuk tampilan halaman web sendiri
 - Simpan dan keluar dari editor
@@ -60,14 +60,14 @@
    ```bash
       sudo systemctl restart apache2
     ```
-   ![restart apache2](https://github.com/dikiriskiyanto/Install/assets/150429308/a0746d16-09e4-48d9-ae8f-868c291be2e7)
-  ![GAMABAR WEBSITE](https://github.com/dikiriskiyanto/Install/assets/150429308/e2dc4fc4-a46d-48f7-8c9f-6b800da1c58e)
+   ![restart apache2](https://user-images.githubusercontent.com/150429308/282998898-743ee45b-ff89-4aa9-a5c5-2a32ba775e66.png)
+  ![GAMABAR WEBSITE](https://user-images.githubusercontent.com/150429308/282998895-23f83576-e28e-4073-bffe-b1c1d7d62d4e.png)
 
 ## 3. Meremote Ubuntu Server
 
 - Menggunakan PuTTY (di Windows):
   - Buka PuTTY, masukkan IP Ubuntu Server, atur connect type ke SSH, klik "Open".
-![PUTTY](https://github.com/dikiriskiyanto/Install/assets/150429308/ac21460f-adeb-4d91-acad-e2e322266e93)
+![PUTTY](https://user-images.githubusercontent.com/150429308/282998894-c3559f54-6fa2-4e48-9f22-1fa7a97d3931.png)
   - Login dengan akun Ubuntu Server.
 
 - Menggunakan Command Prompt (di Windows):
@@ -75,7 +75,7 @@
      ```bash
       sudo ssh user@ip_ubuntu_server
     ```
-      ![WINDOWS](https://github.com/dikiriskiyanto/Install/assets/150429308/24f03218-afc1-4d44-9ca8-6418b887d633)
+      ![WINDOWS](https://user-images.githubusercontent.com/150429308/282998892-e510e4a4-e9a9-41eb-89bb-c7732b801005.png)
   - Masukkan password akun Ubuntu Server
 
 - Menggunakan Terminal (di Ubuntu):
@@ -83,7 +83,7 @@
       ```bash
       sudo ssh user@ip_ubuntu_server
     ```
-     ![UBUNTU](https://github.com/dikiriskiyanto/Install/assets/150429308/34546c77-0598-4a1a-8f0e-c66dc9b1b1ee)
+     ![UBUNTU](https://user-images.githubusercontent.com/150429308/282998886-9135373c-31bc-4561-b1da-464291055c00.png)
   - Masukkan password akun Ubuntu Server
 # Proses Instalisasi Tabluae
 ### Panduan Instalasi dan Visualisasi Data Menggunakan Tableau Public
