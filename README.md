@@ -1,8 +1,8 @@
 # Daftar Isi
-  - [Proses Instalasi Apache2](#proses-instalasi-apache2)
+  - [Proses Instalasi Apache2](#Proses-instalasi-Apache2)
 # Apacahe2 And Tableau Installation
 **Berikut adalah langkah-langkah menginstall Apache2 dan Tableau**!
-# Proses instalisai Apache2
+# Proses instalasi Apache2
 ## 1. Instalasi Apache2 di Ubuntu Server
 - Perbarui Paket Database Lokal
     ```bash
