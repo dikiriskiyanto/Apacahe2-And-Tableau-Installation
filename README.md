@@ -1,5 +1,4 @@
-# Daftar Isi
-  - [Proses Instalasi Apache2](#Proses-instalasi-Apache2)
+
 # Apacahe2 And Tableau Installation
 **Berikut adalah langkah-langkah menginstall Apache2 dan Tableau**!
 # Proses instalasi Apache2
